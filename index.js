@@ -72,7 +72,7 @@ function getTimerTime() {
 function stopTimer() {
     // timer.innerText = 0
     // wpmElement.innerText = Math.floor((len/timer.innerText)*60)
-    quoteElement.innerText= ''
+    quoteElement.innerText= 'Click start to go again'
     clearInterval(timerInterval)
 }
   
